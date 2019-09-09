@@ -1,6 +1,6 @@
 ## How to build and run
 
-# Compile and load the kernel module
+### Compile and load the kernel module
 
 Of course, everything here is done as root.
 
@@ -17,7 +17,7 @@ the module. After this there is to appear a new char device
 
 4. `cd ..`
 
-# Compile and run test program
+### Compile and run test program
 
 1. `$ make`
 
@@ -25,7 +25,7 @@ the module. After this there is to appear a new char device
 
 3. `$ dmesg | tail -n40` - see the output from kernel module.
 
-# Unload the module
+### Unload the module
 
 Of course as root.
 
